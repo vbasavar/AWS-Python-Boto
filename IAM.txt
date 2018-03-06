@@ -1,0 +1,20 @@
+IAM
+
+
+import boto3
+
+iam=boto3.client("iam")
+
+
+iam.create_user(UserName='Test_3')
+
+iam.delete_user(UserName='Test_3')
+
+
+iam.update_user(UserName='Test_3', NewUserName='Test_4')
+
+
+response=iam.list_users()
+
+for s in response['User']:
+	print s['UserName']

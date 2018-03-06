@@ -1,0 +1,20 @@
+https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04
+
+SHOW TABLE STATUS 
+
+select host, user, password from mysql.user;
+
+sudo dpkg --get-selections | grep mysql   : To check whether its installed or not
+
+lsb_release -a : To check version of ubuntu
+
+
+https://www.analyticsvidhya.com/blog/2015/09/build-predictive-model-10-minutes-python/
+
+Thbs123!
+
+All the system resource were normal. Can you check the thread count
+
+7259022093
+
+121@in.airtel.com
