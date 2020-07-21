@@ -1,6 +1,6 @@
 parse
 pep8
 boto3==1.4.7
-PyYAML==3.11
+PyYAML==5.1
 awacs==0.5.4
 awscli==1.10.67
